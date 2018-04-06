@@ -1,0 +1,101 @@
+<html>
+
+<head>
+	<title>Website New</title>
+	<!-- mobile friendly -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="viewport" content="initial-scale=1.25, user-scalable=no">
+
+	<!-- css links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- link to script for awesome icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<!-- My css link -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+
+	<!-- To create grid system for pages -->
+	<!-- <div class="row">
+			<div class="col-md-4"><h1>Left</h1></div>
+			<div class="col-md-8"><h1>Right</h1></div>
+		</div> -->
+
+	<!-- Nav Bars -->
+	<nav class="row navbar navbar-dark bg-primary fixed-top">	   
+		<!-- left nav bar -->
+		<div class="col-sm-4">
+			<div class="container-fluid"> 
+				<a class="pg-font-white" href="Website-list.html"><i class="fas fa-chevron-left"></i></a>
+				<a class="pg-no-underline pg-left-padding" href="Website-list.html"><b class="pg-font-white">Websites</b></a>
+				<a href="Website-new.html" class="pg-font-white float-right"><i class="fas fa-plus"></i></a>
+			</div>
+		</div>
+			
+		<!-- Right nav bar -->
+		<div class="col-sm-8">
+			<div class="container-fluid"> 
+				<a href="#" class="pg-no-underline"><b class="pg-font-white">New Websites</b></a>
+				<a href="Website-list.html" class="pg-font-white float-right"><i class="fas fa-check"></i></a>
+			</div>
+		</div>
+	</nav>
+		
+	<!-- left list part -->
+	<div class="row">
+		<div class="col-sm-4 d-none d-sm-block">
+			<div class="container">
+				<ul class="list-group">
+			  		<li class="list-group-item">
+			    		<a href="../Page/Page-List.html">Address Book App</a>
+			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+			  		</li>
+			  		<li class="list-group-item">
+			    		<a href="../Page/Page-List.html">Blogger</a>
+			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+			  		</li>
+			  		<li class="list-group-item">
+			    		<a href="../Page/Page-List.html">Blogging App</a>
+			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+			  		</li>
+			  		<li class="list-group-item">
+			    		<a href="../Page/Page-List.html">Script Testing App</a>
+			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+			  		</li>
+				</ul>
+			</div>
+		</div>
+	
+
+	<!-- right form part -->
+		<div class="col-sm-8">
+			<div class="container">
+				<form>
+					<!-- website name -->
+					<div class="form-group">
+						<label for="website-name"><strong>Name</strong></label>
+						<input class="form-control" type="text" name="website-name" placeholder="Type your website name">
+					</div>
+					<!-- website desciption -->
+					<div class="form-group">
+						<label for="website-description"><strong>Description</strong></label>
+						<textarea class="form-control" rows="5" placeholder="Input your description for this site"></textarea>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer nav bar -->
+	<nav class="navbar navbar-dark bg-primary fixed-bottom">
+		<div class="pg-width">
+		<a class="pg-font-white float-right" href="../User/profile.html"><i class="fas fa-user"></i></a>
+		</div>
+	</nav>
+
+
+</body>
+</html>

@@ -1,101 +1,119 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
 	<title>Website New</title>
+	
 	<!-- mobile friendly -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="viewport" content="initial-scale=1.25, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="initial-scale=1.25, user-scalable=no">
+	<!-- /mobile friendly -->
 
 	<!-- css links -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- link to script for awesome icons -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-	<!-- My css link -->
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-
+		<!-- Link for boostrap online -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- /Link for boostrap online -->
+		<!-- link to script for awesome icons from local folder -->
+			<link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.css">
+		<!-- /link to script for awesome icons from local folder -->
+		<!-- link to script for awesome icons online-->
+			<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+		<!-- /link to script for awesome icons online-->
+		<!-- My css link -->
+			<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<!-- /My css link -->
+	<!-- /css links -->
 </head>
 
 <body>
 
-	<!-- To create grid system for pages -->
-	<!-- <div class="row">
-			<div class="col-md-4"><h1>Left</h1></div>
-			<div class="col-md-8"><h1>Right</h1></div>
-		</div> -->
+	<!-- **Notes**To create grid system for pages**Notes** -->
+		<!-- <div class="row">
+				<div class="col-md-4"><h1>Left</h1></div>
+				<div class="col-md-8"><h1>Right</h1></div>
+			</div> -->
+	<!-- /**Notes**To create grid system for pages**Notes** -->
 
-	<!-- Nav Bars -->
-	<nav class="row navbar navbar-dark bg-primary fixed-top">	   
-		<!-- left nav bar -->
-		<div class="col-sm-4">
-			<div class="container-fluid"> 
-				<a class="pg-font-white" href="Website-list.html"><i class="fas fa-chevron-left"></i></a>
-				<a class="pg-no-underline pg-left-padding" href="Website-list.html"><b class="pg-font-white">Websites</b></a>
-				<a href="Website-new.html" class="pg-font-white float-right"><i class="fas fa-plus"></i></a>
+	<!-- Top Nav Bars (Left & Right Part) -->
+		<nav class="row navbar navbar-dark bg-primary fixed-top">	   
+			<!-- Top left nav bar -->
+			<div class="col-sm-4 d-none d-sm-block">
+				<div class="container-fluid"> 
+					<a class="pg-font-white" href="Website-list.html"><i class="fas fa-chevron-left"></i></a>
+					<a class="pg-left-padding" href="Website-list.html"><b class="pg-font-white pg-underline">Websites</b></a>
+					<a href="Website-new.html" class="pg-font-white float-right"><i class="fas fa-plus"></i></a>
+				</div>
 			</div>
-		</div>
-			
-		<!-- Right nav bar -->
-		<div class="col-sm-8">
-			<div class="container-fluid"> 
-				<a href="#" class="pg-no-underline"><b class="pg-font-white">New Websites</b></a>
-				<a href="Website-list.html" class="pg-font-white float-right"><i class="fas fa-check"></i></a>
-			</div>
-		</div>
-	</nav>
-		
-	<!-- left list part -->
-	<div class="row">
-		<div class="col-sm-4 d-none d-sm-block">
-			<div class="container">
-				<ul class="list-group">
-			  		<li class="list-group-item">
-			    		<a href="../Page/Page-List.html">Address Book App</a>
-			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
-			  		</li>
-			  		<li class="list-group-item">
-			    		<a href="../Page/Page-List.html">Blogger</a>
-			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
-			  		</li>
-			  		<li class="list-group-item">
-			    		<a href="../Page/Page-List.html">Blogging App</a>
-			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
-			  		</li>
-			  		<li class="list-group-item">
-			    		<a href="../Page/Page-List.html">Script Testing App</a>
-			    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
-			  		</li>
-				</ul>
-			</div>
-		</div>
-	
+			<!-- /Top left nav bar -->
+				
+			<!-- Top Right nav bar -->
+				<div class="col-sm-8">
+					<div class="container-fluid"> 
+						<a href="#"><b class="pg-font-white pg-underline">New Websites</b></a>
+						<a href="Website-list.html" class="pg-font-white float-right"><i class="fas fa-check"></i></a>
+					</div>
+				</div>
+			<!-- /Top Right nav bar -->
+		</nav>
+	<!-- /Top Nav Bars (Left & Right Part)-->
 
-	<!-- right form part -->
-		<div class="col-sm-8">
-			<div class="container">
-				<form>
-					<!-- website name -->
-					<div class="form-group">
-						<label for="website-name"><strong>Name</strong></label>
-						<input class="form-control" type="text" name="website-name" placeholder="Type your website name">
+	<!-- Left & Right part of the Page -->
+		<div class="row">	
+			<!-- left list part -->
+				<div class="col-sm-4 d-none d-sm-block">
+					<div class="container">
+						<ul class="list-group">
+					  		<li class="list-group-item">
+					    		<a href="../Page/Page-List.html">Address Book App</a>
+					    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+					  		</li>
+					  		<li class="list-group-item">
+					    		<a href="../Page/Page-List.html">Blogger</a>
+					    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+					  		</li>
+					  		<li class="list-group-item">
+					    		<a href="../Page/Page-List.html">Blogging App</a>
+					    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+					  		</li>
+					  		<li class="list-group-item">
+					    		<a href="../Page/Page-List.html">Script Testing App</a>
+					    		<a class="float-right" href="Website-edit.html"><i class="fas fa-cog"></i></a>
+					  		</li>
+						</ul>
 					</div>
-					<!-- website desciption -->
-					<div class="form-group">
-						<label for="website-description"><strong>Description</strong></label>
-						<textarea class="form-control" rows="5" placeholder="Input your description for this site"></textarea>
+				</div>
+			<!-- /left list part -->
+
+			<!-- right form part -->
+				<div class="col-sm-8">
+					<div class="container">
+						<form>
+							<!-- website name -->
+							<div class="form-group">
+								<label for="website-name"><strong>Name</strong></label>
+								<input class="form-control" type="text" name="website-name" placeholder="Type your website name">
+							</div>
+							<!-- website desciption -->
+							<div class="form-group">
+								<label for="website-description"><strong>Description</strong></label>
+								<textarea class="form-control" rows="5" placeholder="Input your description for this site"></textarea>
+							</div>
+						</form>
 					</div>
-				</form>
-			</div>
+				</div>
+			<!-- right form part -->
 		</div>
-	</div>
+	<!-- /Left & Right part of the Page -->
 
 	<!-- Footer nav bar -->
-	<nav class="navbar navbar-dark bg-primary fixed-bottom">
-		<div class="pg-width">
-		<a class="pg-font-white float-right" href="../User/profile.html"><i class="fas fa-user"></i></a>
-		</div>
-	</nav>
-
-
+		<nav class="navbar navbar-dark bg-primary fixed-bottom">
+			<div class="pg-width">
+				<a class="pg-font-white float-right" href="../User/profile.html"><i class="fas fa-user"></i></a>
+			</div>
+		</nav>
+	<!-- /Footer nav bar -->
 </body>
+
 </html>

@@ -1,50 +1,65 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
 	<title>Page Heading</title>
-		<!-- mobile friendly -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="viewport" content="initial-scale=1.25, user-scalable=no">
+	
+	<!-- mobile friendly -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="initial-scale=1.25, user-scalable=no">
+	<!-- /mobile friendly -->
 
 	<!-- css links -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- link to script for awesome icons -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-	<!-- My css link -->
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<!-- Link for boostrap online -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- /Link for boostrap online -->
+		<!-- link to script for awesome icons from local folder -->
+			<link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.css">
+		<!-- /link to script for awesome icons from local folder -->
+		<!-- link to script for awesome icons online-->
+			<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+		<!-- /link to script for awesome icons online-->
+		<!-- My css link -->
+			<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<!-- /My css link -->
+	<!-- /css links -->
 </head>
-<body class="no-background">
-	<nav class="navbar navbar-light bg-light fixed-top">
-		<a href="../Page/page-list.html" class="pg-font-black"><i class="fas fa-chevron-left"></i></a>
-		<div class="pg-80-width">
-			<a class="navbar-brand pg-font-white float-left" href="#">New page</a>
-		</div>
-		<a class="pg-font-black" href="Widget-List.html"><i class="fas fa-check"></i></a>
-	</nav>
-<!-- form -->
-	<div class="container-fluid">
-	<form>
-		<!-- Page name -->
-		<div class="form-group">
-			<label for="Name">Name</label>
-			<input type="text" name="name" class="form-control" placeholder="Page Name">
-		</div>
-		<!-- Page title -->
-		<div class="form-group">
-			<label for="text">Title</label>
-			<input type="text" name="text" class="form-control" placeholder="Page Title">
-		</div>
 
-	</form>
-</div>
+<body>
+	<!-- Top nav bar -->
+		<nav class="navbar navbar-light pg-gray fixed-top">
+			<a href="../Page/page-list.html" class="pg-font-black"><i class="fas fa-chevron-left"></i></a>
+			<div class="pg-80-width">
+				<a class="navbar-brand font-weight-bold float-left" href="#"><b class="pg-text-gray pg-underline">New page</b></a>
+			</div>
+			<a class="pg-font-black" href="Page-List.html"><i class="fas fa-check"></i></a>
+		</nav>
+		<!-- /Top nav bar -->
+
+	<!-- form -->
+		<div class="container-fluid">
+			<form>
+				<div class="form-group">
+					<label for="Name"><strong>Name</strong></label>
+					<input type="text" name="name" class="form-control" placeholder="Page Name">
+				</div>
+				<div class="form-group">
+					<label for="text"><strong>Title</strong></label>
+					<input type="text" name="text" class="form-control" placeholder="Page Title">
+				</div>
+			</form>
+		</div>
+	<!-- /form -->
 
 	<!-- Footer nav bar -->
-	<nav class="navbar navbar-dark bg-light fixed-bottom">
-		<div class="pg-width">
-		<a class="float-right" href="../User/profile.html"><i class="fas fa-user"></i></a>
-		</div>
-	</nav>
-
+		<nav class="navbar navbar-dark pg-gray fixed-bottom">
+			<div class="pg-width">
+				<a class="float-right" href="../User/profile.html"><i class="fas fa-user"></i></a>
+			</div>
+		</nav>
+	<!-- /Footer nav bar -->
 </body>
+
 </html>
